@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="-1.0" prefWidth="-1.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="fr.univavignon.ceri.deskmap.controllers.DestinationInfoController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" minHeight="-1.0" prefHeight="-1.0" prefWidth="700.0">
+      <children>
+        <Label fx:id="aucunBus" layoutX="625.0" layoutY="5.0" prefWidth="75.0" text="Aucun Bus" textFill="RED" />
+        <Label alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="0.0" layoutY="3.0" prefHeight="-1.0" prefWidth="143.0" text="Destination:">
+          <font>
+            <Font name="System Bold" size="16.0" />
+          </font>
+        </Label>
+        <Label fx:id="destination" alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="129.0" layoutY="3.0" prefHeight="-1.0" prefWidth="464.0" text="SOIR LORRAINE &lt;&gt; ST BARTH VERDUN">
+          <font>
+            <Font name="System Bold" size="18.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

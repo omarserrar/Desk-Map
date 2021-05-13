@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="80.0" prefWidth="-1.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="fr.univavignon.ceri.deskmap.controllers.DesserteInfoController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label fx:id="heureTemplate" alignment="CENTER" layoutX="355.0" layoutY="22.0" prefHeight="39.0" prefWidth="90.0" text="15:35" visible="false">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <VBox layoutX="0.0" layoutY="0.0" prefHeight="70.0" prefWidth="800.0">
+      <children>
+        <Pane prefHeight="35.0" prefWidth="800.0" style="-fx-background-color: #f3c623">
+          <children>
+            <Label fx:id="ligneTitle" alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="0.0" layoutY="0.0" minHeight="29.0" prefHeight="29.0" prefWidth="381.0" text="3C - ST LAZARE &gt; AGROPARC" textAlignment="CENTER" textFill="WHITE">
+              <font>
+                <Font name="System Bold" size="24.0" />
+              </font>
+            </Label>
+            <Label fx:id="parcour" alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="450.0" layoutY="0.0" minHeight="29.0" prefHeight="35.0" prefWidth="350.0" text="BENE &gt; ARDENNE 9.9" textAlignment="CENTER" textFill="WHITE">
+              <font>
+                <Font name="System Italic" size="20.0" />
+              </font>
+            </Label>
+            <ScrollPane layoutX="0.0" layoutY="35.0" minHeight="29.0" prefHeight="45.0" prefWidth="800.0" vbarPolicy="NEVER">
+              <content>
+                <HBox fx:id="horaires" prefHeight="42.0" prefWidth="-1.0" />
+              </content>
+            </ScrollPane>
+          </children>
+        </Pane>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

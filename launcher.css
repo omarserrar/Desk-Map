@@ -1,0 +1,35 @@
+
+#vBox1 {
+    -fx-background-color: #d4d7dd;
+}
+
+.label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13pt;
+}
+
+.text-field {
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: white;
+    -fx-background-color: #95adbe;
+}
+
+.text-area .content{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: white;
+    -fx-background-color: #95adbe;
+}
+
+.comboBox {
+    -fx-font-family: "Times New Roman";
+}
+
+.button {
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: white;
+    -fx-background-color: #4f81c7;
+}
+.zoom-button{
+	-fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+}
